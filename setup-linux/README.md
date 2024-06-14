@@ -2,9 +2,7 @@
 
 ## Primary
 ```bash
-sudo apt-get update
-sudo apt-get install 
-  vim \
+sudo apt-get update && apt-get install vim \
   git \
   curl \
   vlc \
@@ -129,7 +127,7 @@ kubectl krew
 ### [plugins](https://krew.sigs.k8s.io/plugins/)
 oidc-login
 ```bash
-krew install oidc-login
+kubectl krew install oidc-login
 ```
 
 context management
