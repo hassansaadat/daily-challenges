@@ -130,8 +130,9 @@ oidc-login
 kubectl krew install oidc-login
 ```
 
-context management
+namespace & context management
 ```bash
+kubectl krew install ns
 kubectl krew install ctx
 ```
 
